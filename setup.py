@@ -1,16 +1,23 @@
 from distutils.core import setup
+
+from os import path
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.rst'), encoding='utf-8') as f:
+    long_description = f.read()
     
 setup(
   name = 'inventools',         # How you named your package folder (MyLib)
   packages = ['inventools'],   # Chose the same as "name"
-  version = '2.2',      # Start with a small number and increase it with every change you make
+  version = '3.0',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Inventory tools helps to convert yeild return value to Json or CSV',   # Give a short description about your library
   author = 'Kalaiarasan',                   # Type in your name
   author_email = 'kalaiarsanbalaraman@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/kalaiarasan33/inventools',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/kalaiarasan33/inventools/archive/refs/heads/main.zip',    # I explain this later on
+  url = 'https://github.com/kalaiarasan33/inventorytools',   # Provide either the link to your github or to your website
+  download_url = 'https://github.com/kalaiarasan33/inventorytools/archive/refs/heads/main.zip',    # I explain this later on
   keywords = ['inventools','inventools package''pip install inventools''json', 'csv', 'yield','yeild output to json', 'yeild output to csv'],   # Keywords that define your package best
+  long_description=long_description,
+  long_description_content_type='text/x-rst',
   # install_requires=[            # I get to this in a second
   #         'json',
   #         'itertools',
