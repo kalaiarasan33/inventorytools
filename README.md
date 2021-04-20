@@ -5,7 +5,7 @@
 
 ## Example to user yeild value to csv
 
-```sh
+```
 from inventools import tools
 
 Name_of_file = "language"
@@ -27,7 +27,7 @@ foo()
 
 ## Example to user yeild value to json
 
-```sh
+```
 from inventools import tools
 
 Name_of_file = "language"
@@ -50,7 +50,7 @@ foo()
 #####  Iteratable example 
 
 
-```sh
+```
 from inventools import tools
 
 Name_of_file = "language"
