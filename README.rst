@@ -1,4 +1,4 @@
-*** inventools ***
+**inventools**
 
 ### Inventools helps to covert yield value to Json or csv output
 
