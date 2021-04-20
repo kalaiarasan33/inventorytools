@@ -1,6 +1,6 @@
 # inventools
 
-### Inventools helps to covert yield value to Json or csv output
+### Inventools helps to convert yield value to Json or csv output
 
 
 ## Example to user yeild value to csv
