@@ -1,9 +1,9 @@
 **inventools**
 
-### Inventools helps to covert yield value to Json or csv output
+**Inventools helps to covert yield value to Json or csv output**
 
 
-## Example to user yeild value to csv
+**Example to user yeild value to csv**
 
 .. code-block:: python
 
@@ -21,13 +21,13 @@
     foo()
 
 
-#### output location in relative path 
+output location in relative path 
 
     └───output_csv
             language.csv
 
 
-## Example to user yeild value to json
+**Example to user yeild value to json**
 
 .. code-block:: python
 
@@ -45,12 +45,12 @@
     foo()
 
 
-#### output location in relative path 
+output location in relative path 
     └───output_json
             language.json
 
 
-#####  Iteratable example 
+**Iteratable example**
 
 
 .. code-block:: python
